@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.riddle {
+  font-size: 60px; /* Increased font size for riddles */
+  margin-bottom: 20px;
+}
+
+.answer {
+  font-size: 47px; /* Increased font size for answers */
+  display: none;
+  color: rgb(152, 206, 152);
+  margin-top: 10px;
+  cursor: pointer;
+}
